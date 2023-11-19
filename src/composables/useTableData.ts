@@ -1,9 +1,5 @@
 import { ref } from 'vue'
 
-export interface ISimpleTableData {
-  city: string
-  totalOrders: string
-}
 
 export interface IPaginatedTableData {
   picture: string
@@ -24,13 +20,6 @@ export interface IWideTableData {
 }
 
 export function useTableData() {
-  const simpleTableData = ref<ISimpleTableData[]>([
-    { city: 'New York', totalOrders: '200,120' },
-    { city: 'Manchester', totalOrders: '632,310' },
-    { city: 'London', totalOrders: '451,110' },
-    { city: 'Madrid', totalOrders: '132,524' },
-  ])
-
   const paginatedTableData = ref<IPaginatedTableData[]>([
     {
       picture:
@@ -82,7 +71,6 @@ export function useTableData() {
   )
 
   return {
-    simpleTableData,
     paginatedTableData,
     wideTableData,
   }
