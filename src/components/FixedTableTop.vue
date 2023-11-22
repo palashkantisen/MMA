@@ -1,11 +1,10 @@
 <template>
-  <!-- pagination top part and table search  -->
-  <div class="flex flex-col mt-3 sm:flex-row">
-    
-      <div class="flex"> 
+  <div class="flex flex-col mt-0 sm:flex-row"> 
+  
+      <div class="flex" > 
         <div class="relative">
           <select
-            class="block w-full h-full px-4 py-2 pr-8 leading-tight text-gray-700 bg-white border border-gray-400 rounded-l appearance-none focus:outline-none focus:bg-white focus:border-gray-500">
+            class="block w-full h-full px-4 py-0 pr-8 leading-tight text-gray-700 bg-white border border-gray-400 rounded-l appearance-none focus:outline-none focus:bg-white focus:border-gray-500">
             <option>5</option>
             <option>10</option>
             <option>20</option>
@@ -43,29 +42,8 @@
         </span>
 
         <input placeholder="Search"
-          class="block w-full py-2 pl-8 pr-6 text-sm text-gray-700 placeholder-gray-400 bg-white border border-b border-gray-400 rounded-l rounded-r appearance-none sm:rounded-l-none focus:bg-white focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none">
+        class="block w-full py-2 pl-8 pr-6 text-sm text-gray-700 placeholder-gray-400 bg-white border border-b border-gray-400 rounded-l rounded-r appearance-none sm:rounded-l-none focus:bg-white focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none">
       </div>
-  </div>
-
-  <div class="px-4 py-4 -mx-4 overflow-x-auto sm:-mx-8 sm:px-8">
-    <div class="inline-block min-w-full overflow-hidden rounded-lg shadow">
-      <!-- pagination top part and table search end -->
-      <slot />
-      <div class="flex flex-col items-center px-5 py-5 bg-white border-t xs:flex-row xs:justify-between">
-        <span class="text-xs text-gray-900 xs:text-sm">Showing 1 to 4 of 50 Entries</span>
-
-        <div class="inline-flex mt-2 xs:mt-0">
-          <button class="px-4 py-2 text-sm font-semibold text-gray-800 bg-gray-300 rounded-l hover:bg-gray-400">
-            Prev
-          </button>
-          <button class="px-4 py-2 text-sm font-semibold text-gray-800 bg-gray-300 rounded-r hover:bg-gray-400">
-            Next
-          </button>
-        </div>
-      </div>
-      <!-- Pagination bottom part end -->
-    </div>
-  </div>
-  <!-- pagination top part and table search end -->
+  </div> 
 </template>
   
