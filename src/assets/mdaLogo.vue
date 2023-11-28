@@ -1,6 +1,6 @@
 <template>
   <div>
-    <svg class="w-32 h-32" viewBox="0 0 312 312" fill="none" xmlns="http://www.w3.org/2000/svg" version="1.0"
+    <svg class="w-24 h-24" viewBox="0 0 312 312" fill="none" xmlns="http://www.w3.org/2000/svg" version="1.0"
       preserveAspectRatio="xMidYMid meet">
 
       <g transform="translate(0.000000,336.000000) scale(0.100000,-0.100000)" fill="#d4c0ed" stroke="none">

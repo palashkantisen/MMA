@@ -5,7 +5,8 @@ import Dashboard from './views/Dashboard.vue'
 import Forms from './views/Forms.vue'
 import ListView from './views/ListView.vue'
 import UIElements from './views/UIElements.vue'
-import Login from './views/Login.vue'
+import Login from './views/Login.vue' 
+import Settings from './views/Settings.vue' 
 
 const routes: RouteRecordRaw[] = [
   {
@@ -33,6 +34,11 @@ const routes: RouteRecordRaw[] = [
     path: '/ui-elements',
     name: 'UIElements',
     component: UIElements,
+  },
+  {
+    path: '/settings',
+    name: 'Settings',
+    component: Settings,
   },
 ]
 
